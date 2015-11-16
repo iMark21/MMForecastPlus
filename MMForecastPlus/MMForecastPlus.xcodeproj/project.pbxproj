@@ -7,27 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2230E21CAF18D3395B998521 /* libPods-MMForecastPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B320C8883F515C63A7835FC /* libPods-MMForecastPlus.a */; };
 		A12EEF0C1BFA5FA900FA8061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF0B1BFA5FA900FA8061 /* main.m */; };
-		A12EEF0F1BFA5FA900FA8061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF0E1BFA5FA900FA8061 /* AppDelegate.m */; };
-		A12EEF121BFA5FA900FA8061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF111BFA5FA900FA8061 /* ViewController.m */; };
-		A12EEF151BFA5FA900FA8061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF131BFA5FA900FA8061 /* Main.storyboard */; };
 		A12EEF181BFA5FA900FA8061 /* MMForecastPlus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF161BFA5FA900FA8061 /* MMForecastPlus.xcdatamodeld */; };
 		A12EEF1A1BFA5FA900FA8061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF191BFA5FA900FA8061 /* Assets.xcassets */; };
 		A12EEF1D1BFA5FA900FA8061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF1B1BFA5FA900FA8061 /* LaunchScreen.storyboard */; };
+		A12EEF281BFA61CE00FA8061 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF251BFA61CE00FA8061 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF291BFA61CE00FA8061 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF271BFA61CE00FA8061 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF2C1BFA6C6C00FA8061 /* MMAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF2B1BFA6C6C00FA8061 /* MMAPI.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF311BFA6C8D00FA8061 /* MMGeographicPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF2E1BFA6C8D00FA8061 /* MMGeographicPlace.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF321BFA6C8D00FA8061 /* MMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF341BFA6D0300FA8061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF331BFA6D0300FA8061 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		A12EEF361BFA6FFF00FA8061 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12EEF351BFA6FFF00FA8061 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BC91615948D69590EBFD950 /* Pods-MMForecastPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMForecastPlus.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMForecastPlus/Pods-MMForecastPlus.release.xcconfig"; sourceTree = "<group>"; };
+		2B320C8883F515C63A7835FC /* libPods-MMForecastPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMForecastPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD28EAFC365607797C2B67F /* Pods-MMForecastPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMForecastPlus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMForecastPlus/Pods-MMForecastPlus.debug.xcconfig"; sourceTree = "<group>"; };
 		A12EEF071BFA5FA900FA8061 /* MMForecastPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMForecastPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12EEF0B1BFA5FA900FA8061 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A12EEF0D1BFA5FA900FA8061 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A12EEF0E1BFA5FA900FA8061 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A12EEF101BFA5FA900FA8061 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A12EEF111BFA5FA900FA8061 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A12EEF141BFA5FA900FA8061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12EEF171BFA5FA900FA8061 /* MMForecastPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MMForecastPlus.xcdatamodel; sourceTree = "<group>"; };
 		A12EEF191BFA5FA900FA8061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12EEF1C1BFA5FA900FA8061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A12EEF1E1BFA5FA900FA8061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12EEF241BFA61CE00FA8061 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A12EEF251BFA61CE00FA8061 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A12EEF261BFA61CE00FA8061 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A12EEF271BFA61CE00FA8061 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A12EEF2A1BFA6C6C00FA8061 /* MMAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAPI.h; sourceTree = "<group>"; };
+		A12EEF2B1BFA6C6C00FA8061 /* MMAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAPI.m; sourceTree = "<group>"; };
+		A12EEF2D1BFA6C8D00FA8061 /* MMGeographicPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGeographicPlace.h; sourceTree = "<group>"; };
+		A12EEF2E1BFA6C8D00FA8061 /* MMGeographicPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGeographicPlace.m; sourceTree = "<group>"; };
+		A12EEF2F1BFA6C8D00FA8061 /* MMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDetailViewController.h; sourceTree = "<group>"; };
+		A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailViewController.m; sourceTree = "<group>"; };
+		A12EEF331BFA6D0300FA8061 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A12EEF351BFA6FFF00FA8061 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12EEF361BFA6FFF00FA8061 /* MapKit.framework in Frameworks */,
+				2230E21CAF18D3395B998521 /* libPods-MMForecastPlus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +63,8 @@
 			children = (
 				A12EEF091BFA5FA900FA8061 /* MMForecastPlus */,
 				A12EEF081BFA5FA900FA8061 /* Products */,
+				EC95A8335ECE2F7F962DEEB0 /* Pods */,
+				F95329F17BD147DE7C4598D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +79,17 @@
 		A12EEF091BFA5FA900FA8061 /* MMForecastPlus */ = {
 			isa = PBXGroup;
 			children = (
-				A12EEF0D1BFA5FA900FA8061 /* AppDelegate.h */,
-				A12EEF0E1BFA5FA900FA8061 /* AppDelegate.m */,
-				A12EEF101BFA5FA900FA8061 /* ViewController.h */,
-				A12EEF111BFA5FA900FA8061 /* ViewController.m */,
-				A12EEF131BFA5FA900FA8061 /* Main.storyboard */,
+				A12EEF241BFA61CE00FA8061 /* AppDelegate.h */,
+				A12EEF251BFA61CE00FA8061 /* AppDelegate.m */,
+				A12EEF261BFA61CE00FA8061 /* ViewController.h */,
+				A12EEF271BFA61CE00FA8061 /* ViewController.m */,
+				A12EEF2A1BFA6C6C00FA8061 /* MMAPI.h */,
+				A12EEF2B1BFA6C6C00FA8061 /* MMAPI.m */,
+				A12EEF2D1BFA6C8D00FA8061 /* MMGeographicPlace.h */,
+				A12EEF2E1BFA6C8D00FA8061 /* MMGeographicPlace.m */,
+				A12EEF2F1BFA6C8D00FA8061 /* MMDetailViewController.h */,
+				A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */,
+				A12EEF331BFA6D0300FA8061 /* Main.storyboard */,
 				A12EEF191BFA5FA900FA8061 /* Assets.xcassets */,
 				A12EEF1B1BFA5FA900FA8061 /* LaunchScreen.storyboard */,
 				A12EEF1E1BFA5FA900FA8061 /* Info.plist */,
@@ -82,6 +107,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EC95A8335ECE2F7F962DEEB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD28EAFC365607797C2B67F /* Pods-MMForecastPlus.debug.xcconfig */,
+				1BC91615948D69590EBFD950 /* Pods-MMForecastPlus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95329F17BD147DE7C4598D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12EEF351BFA6FFF00FA8061 /* MapKit.framework */,
+				2B320C8883F515C63A7835FC /* libPods-MMForecastPlus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A12EEF211BFA5FA900FA8061 /* Build configuration list for PBXNativeTarget "MMForecastPlus" */;
 			buildPhases = (
+				69F9B2AAD96D64312F7A2160 /* Check Pods Manifest.lock */,
 				A12EEF031BFA5FA900FA8061 /* Sources */,
 				A12EEF041BFA5FA900FA8061 /* Frameworks */,
 				A12EEF051BFA5FA900FA8061 /* Resources */,
+				8D9F30019BF2E26F9116FBAE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,37 +184,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12EEF341BFA6D0300FA8061 /* Main.storyboard in Resources */,
 				A12EEF1D1BFA5FA900FA8061 /* LaunchScreen.storyboard in Resources */,
 				A12EEF1A1BFA5FA900FA8061 /* Assets.xcassets in Resources */,
-				A12EEF151BFA5FA900FA8061 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69F9B2AAD96D64312F7A2160 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9F30019BF2E26F9116FBAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MMForecastPlus/Pods-MMForecastPlus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A12EEF031BFA5FA900FA8061 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12EEF2C1BFA6C6C00FA8061 /* MMAPI.m in Sources */,
+				A12EEF321BFA6C8D00FA8061 /* MMDetailViewController.m in Sources */,
 				A12EEF181BFA5FA900FA8061 /* MMForecastPlus.xcdatamodeld in Sources */,
-				A12EEF121BFA5FA900FA8061 /* ViewController.m in Sources */,
-				A12EEF0F1BFA5FA900FA8061 /* AppDelegate.m in Sources */,
 				A12EEF0C1BFA5FA900FA8061 /* main.m in Sources */,
+				A12EEF291BFA61CE00FA8061 /* ViewController.m in Sources */,
+				A12EEF311BFA6C8D00FA8061 /* MMGeographicPlace.m in Sources */,
+				A12EEF281BFA61CE00FA8061 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A12EEF131BFA5FA900FA8061 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A12EEF141BFA5FA900FA8061 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A12EEF1B1BFA5FA900FA8061 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -265,6 +338,7 @@
 		};
 		A12EEF221BFA5FA900FA8061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD28EAFC365607797C2B67F /* Pods-MMForecastPlus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMForecastPlus/Info.plist;
@@ -276,6 +350,7 @@
 		};
 		A12EEF231BFA5FA900FA8061 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC91615948D69590EBFD950 /* Pods-MMForecastPlus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMForecastPlus/Info.plist;
@@ -304,6 +379,7 @@
 				A12EEF231BFA5FA900FA8061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
