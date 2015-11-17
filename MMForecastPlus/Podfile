@@ -5,6 +5,8 @@ target ‘MMForecastPlus’ do
 
 pod 'SVProgressHUD'
 pod 'THProgressView'
+pod 'XMLDictionary'
+pod 'SDWebImage', '~>3.7'
 
 end
 

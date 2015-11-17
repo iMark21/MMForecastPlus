@@ -1,5 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/THProgressView"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/THProgressView"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"SVProgressHUD" -l"THProgressView" -framework "QuartzCore"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/THProgressView" "${PODS_ROOT}/Headers/Public/XMLDictionary"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/THProgressView" -isystem "${PODS_ROOT}/Headers/Public/XMLDictionary"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SDWebImage" -l"SVProgressHUD" -l"THProgressView" -l"XMLDictionary" -framework "ImageIO" -framework "QuartzCore"
 PODS_ROOT = ${SRCROOT}/Pods

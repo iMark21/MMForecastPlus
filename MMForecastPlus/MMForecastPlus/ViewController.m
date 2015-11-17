@@ -10,6 +10,7 @@
 #import "SVProgressHUD.h"
 #import "MMAPI.h"
 #import "MMGeographicPlace.h"
+#import "MMNewObject.h"
 #import "MMDetailViewController.h"
 
 
@@ -96,7 +97,7 @@
                             
                             [self.parsedItems addObject:place];
                             
-                            [self.tableView reloadData];
+                            [self.tableViewLocations reloadData];
                             
                            
                         });
@@ -115,6 +116,9 @@
         });
 
     }];
+    
+    
+   
 }
 
 
@@ -149,6 +153,8 @@
 
 
 #pragma mark UITableView methods
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
@@ -185,30 +191,35 @@
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-    [self performSegueWithIdentifier:@"detail" sender:self];
-    
-}
+
+
+
+
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-
+    // Make sure your segue name in storyboard is the same as this line
     if ([[segue identifier] isEqualToString:@"detail"])
     {
        
-        NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+        
+        // Get reference to the destination view controller
+        MMDetailViewController *vc = [segue destinationViewController];
+        
+        
+        NSIndexPath *path = [self.tableViewLocations indexPathForSelectedRow];
+        
         
         MMGeographicPlace *place = [self.parsedItems objectAtIndex:path.row];
-       
-        MMDetailViewController *vc = [segue destinationViewController];
-       
+        
         vc.place = place;
         
         [[MMAPI sharedInstance]saveCacheInformationWithString:place];
         
+        
     }
 }
+
 
 
 @end

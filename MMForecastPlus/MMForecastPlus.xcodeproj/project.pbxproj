@@ -19,6 +19,13 @@
 		A12EEF321BFA6C8D00FA8061 /* MMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A12EEF341BFA6D0300FA8061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF331BFA6D0300FA8061 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		A12EEF361BFA6FFF00FA8061 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12EEF351BFA6FFF00FA8061 /* MapKit.framework */; };
+		A12EEF391BFA742A00FA8061 /* MMXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF381BFA742A00FA8061 /* MMXMLParser.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF3F1BFA7B7300FA8061 /* MMNewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF3E1BFA7B7300FA8061 /* MMNewObject.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF421BFA846B00FA8061 /* MMNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF411BFA846B00FA8061 /* MMNewsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF461BFA872A00FA8061 /* MMNewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF451BFA872A00FA8061 /* MMNewTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF481BFA9BF100FA8061 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF471BFA9BF100FA8061 /* placeholder.jpg */; settings = {ASSET_TAGS = (); }; };
+		A12EEF4B1BFA9E2500FA8061 /* MMNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12EEF4A1BFA9E2500FA8061 /* MMNewsDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A12EEF4D1BFAAAF100FA8061 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = A12EEF4C1BFAAAF100FA8061 /* sunny.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +50,18 @@
 		A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDetailViewController.m; sourceTree = "<group>"; };
 		A12EEF331BFA6D0300FA8061 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A12EEF351BFA6FFF00FA8061 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A12EEF371BFA742A00FA8061 /* MMXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMXMLParser.h; sourceTree = "<group>"; };
+		A12EEF381BFA742A00FA8061 /* MMXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMXMLParser.m; sourceTree = "<group>"; };
+		A12EEF3D1BFA7B7300FA8061 /* MMNewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNewObject.h; sourceTree = "<group>"; };
+		A12EEF3E1BFA7B7300FA8061 /* MMNewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNewObject.m; sourceTree = "<group>"; };
+		A12EEF401BFA846B00FA8061 /* MMNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNewsViewController.h; sourceTree = "<group>"; };
+		A12EEF411BFA846B00FA8061 /* MMNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNewsViewController.m; sourceTree = "<group>"; };
+		A12EEF441BFA872A00FA8061 /* MMNewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNewTableViewCell.h; sourceTree = "<group>"; };
+		A12EEF451BFA872A00FA8061 /* MMNewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNewTableViewCell.m; sourceTree = "<group>"; };
+		A12EEF471BFA9BF100FA8061 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		A12EEF491BFA9E2500FA8061 /* MMNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNewsDetailViewController.h; sourceTree = "<group>"; };
+		A12EEF4A1BFA9E2500FA8061 /* MMNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNewsDetailViewController.m; sourceTree = "<group>"; };
+		A12EEF4C1BFAAAF100FA8061 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,16 +98,12 @@
 		A12EEF091BFA5FA900FA8061 /* MMForecastPlus */ = {
 			isa = PBXGroup;
 			children = (
+				A12EEF431BFA870900FA8061 /* Views */,
+				A12EEF3C1BFA74C800FA8061 /* Objects */,
+				A12EEF3B1BFA74B200FA8061 /* Controllers */,
+				A12EEF3A1BFA749C00FA8061 /* Engine */,
 				A12EEF241BFA61CE00FA8061 /* AppDelegate.h */,
 				A12EEF251BFA61CE00FA8061 /* AppDelegate.m */,
-				A12EEF261BFA61CE00FA8061 /* ViewController.h */,
-				A12EEF271BFA61CE00FA8061 /* ViewController.m */,
-				A12EEF2A1BFA6C6C00FA8061 /* MMAPI.h */,
-				A12EEF2B1BFA6C6C00FA8061 /* MMAPI.m */,
-				A12EEF2D1BFA6C8D00FA8061 /* MMGeographicPlace.h */,
-				A12EEF2E1BFA6C8D00FA8061 /* MMGeographicPlace.m */,
-				A12EEF2F1BFA6C8D00FA8061 /* MMDetailViewController.h */,
-				A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */,
 				A12EEF331BFA6D0300FA8061 /* Main.storyboard */,
 				A12EEF191BFA5FA900FA8061 /* Assets.xcassets */,
 				A12EEF1B1BFA5FA900FA8061 /* LaunchScreen.storyboard */,
@@ -102,9 +117,57 @@
 		A12EEF0A1BFA5FA900FA8061 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A12EEF471BFA9BF100FA8061 /* placeholder.jpg */,
+				A12EEF4C1BFAAAF100FA8061 /* sunny.png */,
 				A12EEF0B1BFA5FA900FA8061 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12EEF3A1BFA749C00FA8061 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A12EEF2A1BFA6C6C00FA8061 /* MMAPI.h */,
+				A12EEF2B1BFA6C6C00FA8061 /* MMAPI.m */,
+				A12EEF371BFA742A00FA8061 /* MMXMLParser.h */,
+				A12EEF381BFA742A00FA8061 /* MMXMLParser.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		A12EEF3B1BFA74B200FA8061 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A12EEF261BFA61CE00FA8061 /* ViewController.h */,
+				A12EEF271BFA61CE00FA8061 /* ViewController.m */,
+				A12EEF2F1BFA6C8D00FA8061 /* MMDetailViewController.h */,
+				A12EEF301BFA6C8D00FA8061 /* MMDetailViewController.m */,
+				A12EEF401BFA846B00FA8061 /* MMNewsViewController.h */,
+				A12EEF411BFA846B00FA8061 /* MMNewsViewController.m */,
+				A12EEF491BFA9E2500FA8061 /* MMNewsDetailViewController.h */,
+				A12EEF4A1BFA9E2500FA8061 /* MMNewsDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A12EEF3C1BFA74C800FA8061 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A12EEF2D1BFA6C8D00FA8061 /* MMGeographicPlace.h */,
+				A12EEF2E1BFA6C8D00FA8061 /* MMGeographicPlace.m */,
+				A12EEF3D1BFA7B7300FA8061 /* MMNewObject.h */,
+				A12EEF3E1BFA7B7300FA8061 /* MMNewObject.m */,
+				A12EEF441BFA872A00FA8061 /* MMNewTableViewCell.h */,
+				A12EEF451BFA872A00FA8061 /* MMNewTableViewCell.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		A12EEF431BFA870900FA8061 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		EC95A8335ECE2F7F962DEEB0 /* Pods */ = {
@@ -185,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A12EEF341BFA6D0300FA8061 /* Main.storyboard in Resources */,
+				A12EEF481BFA9BF100FA8061 /* placeholder.jpg in Resources */,
 				A12EEF1D1BFA5FA900FA8061 /* LaunchScreen.storyboard in Resources */,
 				A12EEF1A1BFA5FA900FA8061 /* Assets.xcassets in Resources */,
+				A12EEF4D1BFAAAF100FA8061 /* sunny.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12EEF4B1BFA9E2500FA8061 /* MMNewsDetailViewController.m in Sources */,
+				A12EEF391BFA742A00FA8061 /* MMXMLParser.m in Sources */,
 				A12EEF2C1BFA6C6C00FA8061 /* MMAPI.m in Sources */,
 				A12EEF321BFA6C8D00FA8061 /* MMDetailViewController.m in Sources */,
+				A12EEF421BFA846B00FA8061 /* MMNewsViewController.m in Sources */,
 				A12EEF181BFA5FA900FA8061 /* MMForecastPlus.xcdatamodeld in Sources */,
+				A12EEF461BFA872A00FA8061 /* MMNewTableViewCell.m in Sources */,
 				A12EEF0C1BFA5FA900FA8061 /* main.m in Sources */,
 				A12EEF291BFA61CE00FA8061 /* ViewController.m in Sources */,
 				A12EEF311BFA6C8D00FA8061 /* MMGeographicPlace.m in Sources */,
+				A12EEF3F1BFA7B7300FA8061 /* MMNewObject.m in Sources */,
 				A12EEF281BFA61CE00FA8061 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

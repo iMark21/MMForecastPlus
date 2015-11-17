@@ -21,4 +21,8 @@
 
 -(NSArray*)restoreCacheInformation;
 
+-(NSDictionary*)xmlDictionary:(NSURL*)xmlURL;
+
+- (void)xmlDictionary:(NSURL *) url completionBlock:(void (^)(NSDictionary *xmlDictionary, NSError *error)) block;
 @end
+

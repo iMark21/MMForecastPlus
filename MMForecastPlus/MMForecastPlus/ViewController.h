@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) IBOutlet UIButton *searchButton;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITableView *tableViewLocations;
 
 
 - (IBAction)searchButtonAction:(id)sender;

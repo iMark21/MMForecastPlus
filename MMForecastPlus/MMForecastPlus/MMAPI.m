@@ -8,6 +8,7 @@
 
 #import "MMAPI.h"
 #import "MMGeographicPlace.h"
+#import "MMXMLParser.h"
 
 
 
@@ -101,6 +102,39 @@
     
     
 }
+
+-(NSDictionary*)xmlDictionary:(NSURL*)xmlURL{
+    
+    NSData * dataXml = [[NSData alloc] initWithContentsOfURL:xmlURL];
+    
+    NSDictionary *xmlDictionary=[[MMXMLParser sharedInstance] dictionaryWithXMLData:dataXml];
+    
+    NSLog(@"Madrid3");
+    
+    return xmlDictionary;
+    
+}
+
+- (void)xmlDictionary:(NSURL *) url completionBlock:(void (^)(NSDictionary *xmlDictionary, NSError *error)) block {
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+        
+        
+        NSData * dataXml = [[NSData alloc] initWithContentsOfURL:url];
+        NSDictionary *xmlDictionary=[[MMXMLParser sharedInstance] dictionaryWithXMLData:dataXml];
+        
+        if(xmlDictionary) {
+            block(xmlDictionary, nil);
+            
+        } else {
+            NSError *error = [NSError errorWithDomain:@"plist_download_error" code:1
+                                             userInfo:[NSDictionary dictionaryWithObject:@"Can't fetch data" forKey:NSLocalizedDescriptionKey]];
+            block(nil, error);
+        }
+        
+    });
+}
+
 
 -(void)saveCacheInformationWithString: (MMGeographicPlace*)place{
     
